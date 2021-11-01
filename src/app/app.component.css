@@ -1,0 +1,62 @@
+.gal-card {
+  margin: 40px auto;
+}
+
+.form-select {
+  background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><path fill='none' stroke='%23ff0000' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M2 5l6 6 6-6'/></svg>");
+  width: 230px;
+}
+
+.canje-mobile {
+  display: none;
+  background-color: #ff6600;
+  border: white solid 1px;
+}
+
+.canje-desk {
+  border-radius: 25px;
+  border: white solid 1px;
+  background-color: #ff6600;
+  margin: 25px auto;
+  float: right;
+
+}
+
+
+.email-control {
+  width: 230px;
+  border: 0;
+  border-radius: 0px;
+  outline: 0;
+  background: transparent;
+  border-bottom: 1px solid #ffa500;
+}
+
+.voucher {
+  margin: 15px auto;
+}
+
+
+/* modificacion Query para mobile */
+
+@media (max-width: 650px) {
+  .card {
+    width: 90% !important;
+  }
+
+  .form-select {
+    width: 100%;
+  }
+
+  .email-control {
+    width: 100%;
+  }
+
+  .canje-desk {
+    display: none;
+  }
+  .canje-mobile {
+    display: block;
+    
+  }
+}
